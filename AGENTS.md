@@ -6,7 +6,7 @@
    - `git status --short`
    - `git diff --cached --name-only`
    - staged diff
-6. Commit phải chia nhỏ theo từng hạng mục rõ ràng, dễ cherry-pick/revert.
+6. Commit phải chia nhỏ theo từng hạng mục rõ ràng, dễ cherry-pick/revert. xóa di
 7. Không tạo commit gộp nếu staged index có nhiều hạng mục không liên quan.
 8. Chỉ commit staged changes, không tự stage file unstaged để commit.
 9. Nếu staged index có nhiều hạng mục, phải hỏi trước khi sắp xếp lại index.
